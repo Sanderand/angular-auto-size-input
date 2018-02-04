@@ -6,8 +6,8 @@ Plug and Play directive to automatically scale textareas to their contents. Work
 ## How to use it
 
 1. `npm i angular-auto-size-input`
-2. import AutoSizeInputModule
-3. add the `asAutoSizeInput` directive to your textareas
+2. `import { AutoSizeInputModule } from 'angular-auto-size-input';` and add it to you Angular module
+3. Add the `asAutoSizeInput` directive to your textareas
 
 ```
 <textarea
